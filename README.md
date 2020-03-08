@@ -10,3 +10,4 @@ To build with non-minified js and python source maps:
 
 ```transcrypt --nomin --build --map --esv 6 tictacreact.py```
 
+![tictacreact screenshot](https://github.com/JennaSys/tictacreact/raw/master/screenshot.png)
