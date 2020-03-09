@@ -4,7 +4,7 @@ from pyreact import Component, render, element
 
 
 def square(props):
-    return element('button', {'className': 'square', 'onClick': props.onClick}, props.value, )
+    return element('button', {'className': 'square', 'onClick': props.onClick}, props.value)
 
 
 class Board(Component):
@@ -88,14 +88,13 @@ class Game(Component):
                        element('div', {'className': 'game-board'},
                                element(Board, {
                                    'squares': current['squares'],
-                                   'onClick': lambda i: self.handle_click(i),
+                                   'onClick': self.handle_click,
                                }),
                                element('div', {'className': 'game-status'}, status),
                                ),
                        element('div', {'className': 'game-info'}, 'Move History',
                                element('ol', None, moves),
                                ),
-
                        )
 
 
