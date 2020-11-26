@@ -15,4 +15,4 @@ To build with non-minified js and python source maps:
 
 Live demo currently hosted here: https://tictacreact.jennasys.com
 
-A functional component version of this demo that uses React hooks is here: https://github.com/JennaSys/tictacreact2
+A refactored version of this demo that uses functional components and React hooks is here: https://github.com/JennaSys/tictacreact2
