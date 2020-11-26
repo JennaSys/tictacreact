@@ -14,3 +14,5 @@ To build with non-minified js and python source maps:
 ![tictacreact screenshot](https://github.com/JennaSys/tictacreact/raw/master/screenshot.png)
 
 Live demo currently hosted here: https://tictacreact.jennasys.com
+
+A functional component version of this demo that uses React hooks is here: https://github.com/JennaSys/tictacreact2
